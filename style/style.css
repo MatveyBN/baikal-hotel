@@ -1,0 +1,252 @@
+.first_screen {
+  background: #FFF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 49px;
+  margin-top: 30px;
+}
+.header p {
+  color: #686868;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+}
+
+.navi_button {
+  color: #686868;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  background-color: #FFF;
+  border: #FFF;
+}
+
+.main {
+  color: #2F70D9;
+  border: #FFF;
+  background-color: #FFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.call {
+  display: inline-flex;
+  padding: 8px 19px 7px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #2F70D9;
+  color: #2F70D9;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  background-color: white;
+}
+
+.navi {
+  display: flex;
+  gap: 30px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.offer img {
+  max-width: 706px;
+  max-height: 602px;
+}
+
+.offer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.offer2 p {
+  max-width: 483px;
+  color: #686868;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141.182%;
+  letter-spacing: 0.48px;
+}
+.offer2 button {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  width: 285px;
+  height: 65px;
+  padding: 17px 48px 18px 49px;
+  border-radius: 10px;
+  background-color: #D95845;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  border-color: #D95845;
+}
+
+.logo {
+  max-width: 497px;
+  max-height: 116px;
+}
+
+.about_the_company {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about_the_company img {
+  max-width: 810px;
+  max-height: 467px;
+}
+
+.text1 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.text1 p {
+  max-width: 390px;
+  color: #686868;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141.182%;
+  letter-spacing: 0.48px;
+}
+
+.line {
+  display: flex;
+  margin-top: 30%;
+}
+
+.main_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1%;
+  gap: 17%;
+}
+.main_content div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.main_content div img {
+  max-width: 75px;
+  max-height: 65px;
+}
+.main_content div section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.main_content div section h3 {
+  color: #2F70D9;
+  font-family: Lora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin: 0;
+}
+.main_content div section p {
+  color: #686868;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141.182%;
+  letter-spacing: 0.42px;
+  max-width: 237px;
+  margin: 0;
+}
+
+.title_offer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 34.9%;
+  max-height: 64px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: space-around;
+  flex-wrap: wrap;
+  margin: 5.8%;
+}
+
+.title_price {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30.9%;
+  max-height: 64px;
+}
+
+.Rooms_Card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid #2F70D9;
+  background: #FFF;
+}
+
+.rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asd {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+.asd li {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
